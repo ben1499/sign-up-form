@@ -45,3 +45,110 @@ body {
 #left-section a {
     color: #fff;
 }
+
+
+#right-section {
+    background-color: #efefef;
+    flex: 1;
+    
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+    padding-top: 10%;
+}
+
+#right-section .top-para {
+    font-weight: 700;
+    font-size: 1.3rem;
+    margin: 0;
+    margin-left: 50px;
+}
+
+#right-section p:last-child {
+    margin-left: 50px;
+    margin-top: 25px;
+}
+
+#right-section > p:nth-child(3) {
+    margin-top: 20px;
+}
+
+#form-body {
+    margin-bottom: 25px;
+}
+
+.row {
+    display: flex;
+    gap: 20px;
+}
+
+
+#form-body {
+    background-color: #fff;
+    /* height: 400px; */
+    padding: 20px 50px;
+    margin-top: 30px;
+}
+
+#form-body h2 {
+    margin: 0;
+    margin-bottom: 15px;
+    font-size: 1.4rem;
+}
+
+.form-control {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    margin-right: 30px;
+}
+
+.form-control label {
+    font-size: 12px;
+    margin-bottom: 3px;
+}
+
+.form-control input {
+    width: 250px;
+    height: 25px;
+    border: none;
+    border: 3px solid#E5E7EB;
+    border-radius: 6px;
+
+}
+
+.form-control input:focus {
+    border: 1px solid blue;
+    outline: none;
+    box-shadow: 1px 1px 4px rgb(0,0,0, 0.5);
+}
+
+input[type="password"].error {
+    border: 2px solid red;
+}
+
+.error-msg {
+    font-size: 13px;
+    color: red;
+}
+
+input:invalid {
+    border: 1px solid red;
+}
+
+
+button {
+    background-color: #596D48;
+    color: #fff;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    margin-left: 50px;
+}
+
+p a {
+    text-decoration: none;
+    color: red;
+    font-weight: 700;
+}
